@@ -1,0 +1,61 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Get Active Amber Alerts",
+          "examplePhrases": [
+            "Alexa Ask Amber Alert Program",
+            "Alexa Ask amber alert program for Active Alerts",
+            ""
+          ],
+          "keywords": [
+            "Active",
+            "Amber",
+            "Alert"
+          ],
+          "name": "Active Amber Alerts",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/b6a3b423bf13481381c1af5c655ce0c6/APP_ICON?versionId=cs8oSNroPV9wvAiHvkg6ZYxAnp42PKbO&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1532073240&Signature=B1DQcwyTwRvJno05MbWVh6leViQ%3D",
+          "description": "This unofficial skill provides the active amber alerts using Amber Alert Program.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/244811897c154334bfeab35dcd8caf86/APP_ICON_LARGE?versionId=7U67Az__kYwTDwalIDqZowRcwXtpFAgH&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1532073240&Signature=ElLYRcIDp1lPTF3%2F1%2FSpWgXEito%3D"
+        },
+        "en-IN": {
+          "summary": "Get Active Amber Alerts",
+          "examplePhrases": [
+            "Alexa Ask Amber Alert Program",
+            "Alexa Ask amber alert program for Active Alerts",
+            ""
+          ],
+          "keywords": [
+            "Active",
+            "Amber",
+            "Alert"
+          ],
+          "name": "Active Amber Alerts",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/b6a3b423bf13481381c1af5c655ce0c6/APP_ICON?versionId=cs8oSNroPV9wvAiHvkg6ZYxAnp42PKbO&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1532073240&Signature=B1DQcwyTwRvJno05MbWVh6leViQ%3D",
+          "description": "This unofficial skill provides the active amber alerts using Amber Alert Program.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/244811897c154334bfeab35dcd8caf86/APP_ICON_LARGE?versionId=7U67Az__kYwTDwalIDqZowRcwXtpFAgH&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1532073240&Signature=ElLYRcIDp1lPTF3%2F1%2FSpWgXEito%3D"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Just Say\nAlexa Ask Amber Alert Program for active alerts",
+      "category": "NEWS",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "./lambda/us-east-1_ActiveAmberAlerts"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
